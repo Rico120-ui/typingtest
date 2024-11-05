@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="icon" href="/img/logo1.png" type="image/x-icon" />
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="flyingLettersContainer"></div>
+      <h1>Typing Speed Test</h1>
+      <div id="word-display"></div>
+      <input
+        type="text"
+        id="word-input"
+        placeholder=""
+        autocomplete="off"
+        autofocus
+      />
+      <!-- Start and Exit Buttons -->
+      <div id="control-buttons">
+        <button id="start-button">Start</button>
+        <button id="exit-button" disabled>Exit</button>
+      </div>
+      <div class="timechoice">
+        <label class="timeselect" for="time-select">Select Time:</label>
+        <select id="time-select">
+          <option value="30">30s</option>
+          <option value="60">60s</option>
+          <option value="90">90s</option>
+          <option value="120">120s</option>
+        </select>
+      </div>
+      <div id="score">Score: <span id="score-value">0</span></div>
+      <div id="timer">Time Left:<span id="time-left">00</span>s</div>
+      <div id="customAlert" class="modal">
+        <div class="modal-content">
+          <span class="close-button" onclick="closeAlert()">×</span>
+          <p id="alertMessage"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
