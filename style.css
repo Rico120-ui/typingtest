@@ -11,7 +11,7 @@ body {
   height: 100%;
   box-sizing: border-box;
 
-  background-image: url("/66px_5zu1_230310.jpg");
+  background-image: url("66px_5zu1_230310.jpg");
   background-size: cover; /* Ensures the image covers the entire viewport */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
