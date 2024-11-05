@@ -10,6 +10,11 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+
+  background-image: url("/66px_5zu1_230310.jpg");
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 input,
 textarea {
@@ -38,7 +43,7 @@ h1 {
 #word-display {
   font-size: 40px;
   margin-bottom: 40px;
-  color: #ffffff;
+  color: #242424;
 }
 #control-buttons {
   margin-top: 30px;
@@ -95,7 +100,7 @@ h1 {
 #score {
   font-size: 25px;
   color: #ffffff;
-  background-color: #3b3b3b;
+  background-color: #973b02;
   padding: 10px;
   border-radius: 4px;
   margin: 10px;
@@ -105,7 +110,7 @@ h1 {
   padding: 10px;
   font-size: 25px;
   color: #ffffff;
-  background-color: #3b3b3b;
+  background-color: #62057f;
   border-radius: 4px;
   margin: 10px;
 }
@@ -146,7 +151,7 @@ h1 {
 }
 #time-select {
   color: #ffffff;
-  background-color: #3b3b3b;
+  background-color: #005265;
   margin-bottom: 13px;
   margin-top: 10px;
   width: 250px;
@@ -226,7 +231,7 @@ h1 {
 }
 .timechoice {
   color: #ffffff;
-  background-color: #3b3b3b;
+  background-color: #005265;
   display: inline-block;
   justify-content: center;
   align-items: center;
