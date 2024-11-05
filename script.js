@@ -472,7 +472,7 @@ const words = [
   "salsa",
   "sauce",
   "compound",
-  " butter",
+  "butter",
   "coulis",
   "ganache",
   "frosting",
