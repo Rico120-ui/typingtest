@@ -707,10 +707,14 @@ function createFlyingLetter() {
 
 // Generate letters at intervals
 setInterval(createFlyingLetter, 300); // Adjust interval for the number of letters
-document.addEventListener('contextmenu', (event) => event.preventDefault());
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
-    event.preventDefault();
+// Webpack config to output minified bundles
+module.exports = {
+  mode: 'production', // Ensures minification
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.min.js',
+    path: path.resolve(__dirname, 'dist')
   }
-});
+};
+
 
