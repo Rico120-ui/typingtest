@@ -521,16 +521,6 @@ document.addEventListener('keydown', (event) => {
     event.preventDefault();
   }
 });
-// Webpack config to output minified bundles
-module.exports = {
-  mode: 'production', // Ensures minification
-  entry: './src/index.js',
-  output: {
-    filename: 'bundle.min.js',
-    path: path.resolve(__dirname, 'dist')
-  }
-};
-
 // Prevent zooming in by double-tap and pinch gestures
 document.addEventListener(
   "touchstart",
